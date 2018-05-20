@@ -1,0 +1,355 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+background: #f6f6f6;
+}
+
+.title{
+  padding: 25px;
+  margin: 50px;
+  border-bottom: 2px solid black;
+  width: 800px;
+  text-align: center;
+  margin:auto;
+}
+
+.slogan{
+  padding: 30px;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width:400px;
+  text-align: center;
+  margin: auto;
+}
+
+.slogan em{
+  text-decoration: underline;
+}
+
+/*.iframe-space{
+  padding-bottom: 50px;
+}*/
+
+.page-welcome{
+    padding:30px;
+    width: 80%;
+    text-align: justify;
+    margin:0 auto;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.caption{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.nav{
+  padding:5px;
+  background: #363636;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_a{
+  background-color: #363636;
+  color: white;
+  text-decoration: none;
+}
+
+.nav_under{
+  height:50px;
+  border: none;
+}
+
+.icon{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+}
+
+.nav_a:hover{
+  color: #9BF78D;
+  text-decoration: underline;
+}
+
+/*The container <div> - needed to position the dropdown*/
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button - only add padding if the button is to be bigger*/
+.dropdown_lyrics{
+  background-color: #363636;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+/*dropdown content (hidden by default)*/
+.dropdown-content{
+  display: none;
+  position:absolute;
+  background-color: #f1f1f1;
+  min-width: 125px;
+  overflow-y: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0.5);
+  z-index: 1;
+}
+
+/*links inside*/
+.dropdown-content a{
+  color: black;
+  padding: 20px 20px;
+  text-decoration: none;
+  display:block;
+}
+
+/*change color on hover*/
+.dropdown-content a:hover{
+  background-color: black;
+  color: #9BF78D;
+  text-decoration: underline;
+}
+
+/*show the dropdown on hover*/
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+/*change the background color of the dropdown when content is shown*/
+.dropdown:hover .dropdown_lyrics{
+  /*background-color:#868686;
+  **note this looks proper wank if the button has no padding
+  */
+  color:#9BF78D;
+  text-decoration: underline;
+}
+
+
+/*table style*/
+table{
+  height: 100px;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+  /*border-collapse: collapse;*/
+}
+
+th{
+  background:#c2c2c2;
+  background: #363636;
+  color: #a5f798;
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  height: 100px;
+}
+
+td{
+background: #535457;
+color: #FFF;
+font-family: "lato", sans-serif;
+font-size: 16px;
+font-weight: lighter;
+letter-spacing: 2px;
+}
+
+th, td{
+  text-align: center;
+  padding: 25px;
+  width: 15%;
+}
+
+tr{
+  background: #EEE;
+  border: 2px;
+}
+/*tbody td:hover{
+background-color: black;
+color: #FFF;
+}
+*/
+tbody tr:hover td{
+  background-color: black;
+  color: #FFF;
+  color: #9BF78D;
+}
+
+.sidebar{
+  float: left;
+  width: 35%;
+  overflow-y: scroll;
+}
+
+.sidebar_content{
+  Border-bottom: 2px solid #c2c2c2;
+}
+
+.footer{
+height: 80px;
+background: #363636;
+text-align: center;
+overflow: hidden;
+width: 100%;
+clear: both;
+}
+
+.footer_title{
+  color: #727272;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer_link{
+  color: #727272;
+  text-align: center;
+  padding:10px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.footer_link:hover{
+  color: #4a4a4a;
+}
+
+.home:hover{
+  content: url(../images/house-green.png);
+}
+
+.content{
+  margin: 0 auto;
+  height: 1300px;
+  width: 70%;
+}
+
+.list_item{
+  list-style-type: none;
+  line-height: 10px;
+}
+
+
+.search{
+  float: right;
+  height:30px;
+  padding: 8px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.icon_search{
+  float: right;
+  height:30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-position: 10px;
+}
+
+.sidebar_title{
+  border-top: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
+  margin: 5px;
+  text-align: center;
+}
+
+.photo{
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content_news{
+  height:350px;
+  width:65%;
+  border: 1px solid red;
+  float: right;
+}
+
+.content_reviews{
+  height:240px;
+  width:65%;
+  border: 1px solid red;
+  float: right;
+  overflow:scroll;
+}
+
+.content_reviews_title{
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
+}
+
+.list_news{
+height: 29%;
+width: 100%;
+border: 1px solid red;
+overflow-y: hidden;
+}
+
+.content_news_title{
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
+}
+
+.content_new-releases{
+  width: 100%;
+  height: 300px;
+  border: 1px solid red;
+  clear: both;
+  margin-bottom: 1px;
+}
+
+.list_reviews{
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+.space{
+  margin: 1px;
+}
+
+.list_reviews_image{
+  height:60%;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.list_reviews_text{
+  height: 40%;
+  width: 100%;
+}
+
+.list_reviews_text_content{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_reviews_text_content_link{
+  text-decoration: underline;
+  color: #363636;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_reviews_text_content_link:hover{
+  color: #007f00;
+}
