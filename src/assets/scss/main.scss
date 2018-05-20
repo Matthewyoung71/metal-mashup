@@ -200,7 +200,7 @@ tbody tr:hover td{
 }
 
 .sidebar_content{
-  Border-bottom: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
 }
 
 .footer{
@@ -237,7 +237,7 @@ clear: both;
 .content{
   margin: 0 auto;
   height: 1300px;
-  width: 70%;
+  width: 80%;
 }
 
 .list_item{
@@ -277,7 +277,7 @@ clear: both;
 }
 
 .content_news{
-  height:350px;
+  height:400px;
   width:65%;
   border: 1px solid red;
   float: right;
@@ -317,8 +317,8 @@ overflow-y: hidden;
   width: 100%;
   height: 300px;
   border: 1px solid red;
-  clear: both;
   margin-bottom: 1px;
+  float: left;
 }
 
 .list_reviews{
