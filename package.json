@@ -1,0 +1,28 @@
+{
+  "name": "metal-mashup",
+  "version": "0.0.1",
+  "description": "best page ever",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path scss src/assets/scss/main.scss main.css",
+    "dev": "lite-server",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matthewyoung71/metal-mashup.git"
+  },
+  "author": "Matthew Charles Young <matthew.charles.young71@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matthewyoung71/metal-mashup/issues"
+  },
+  "homepage": "https://github.com/Matthewyoung71/metal-mashup#readme",
+  "dependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "nodemon": "^1.17.4"
+  }
+}
