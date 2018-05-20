@@ -26,12 +26,9 @@ body {
 .slogan em {
   text-decoration: underline; }
 
-/*.iframe-space{
-  padding-bottom: 50px;
-}*/
 .page-welcome {
   padding: 30px;
-  width: 80%;
+  width: 90%;
   text-align: justify;
   margin: 0 auto;
   font-size: 22px;
@@ -291,12 +288,11 @@ tbody tr:hover td {
   width: 100%; }
 
 .list_reviews_text_content {
-  font-family: Arial, Helvetica, sans-serif; }
+  padding: 10px; }
 
 .list_reviews_text_content_link {
   text-decoration: underline;
-  color: #363636;
-  font-family: Arial, Helvetica, sans-serif; }
+  color: #363636; }
 
 .list_reviews_text_content_link:hover {
   color: #007f00; }

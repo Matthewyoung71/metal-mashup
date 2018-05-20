@@ -33,13 +33,9 @@ body{
   text-decoration: underline;
 }
 
-/*.iframe-space{
-  padding-bottom: 50px;
-}*/
-
 .page-welcome{
     padding:30px;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     margin:0 auto;
     font-size: 22px;
@@ -343,13 +339,12 @@ overflow-y: hidden;
 }
 
 .list_reviews_text_content{
-  font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
 }
 
 .list_reviews_text_content_link{
   text-decoration: underline;
   color: #363636;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .list_reviews_text_content_link:hover{
