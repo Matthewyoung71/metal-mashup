@@ -5,7 +5,8 @@
 }
 
 body{
-background: #f6f6f6;
+  background: #f6f6f6;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .title{
@@ -15,6 +16,7 @@ background: #f6f6f6;
   width: 800px;
   text-align: center;
   margin:auto;
+
 }
 
 .slogan{
@@ -24,28 +26,23 @@ background: #f6f6f6;
   width:400px;
   text-align: center;
   margin: auto;
+
 }
 
 .slogan em{
   text-decoration: underline;
 }
 
-/*.iframe-space{
-  padding-bottom: 50px;
-}*/
-
 .page-welcome{
     padding:30px;
-    width: 80%;
+    width: 90%;
     text-align: justify;
     margin:0 auto;
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .caption{
-  font-family: Arial, Helvetica, sans-serif;
   padding: 25px;
   margin: 10px auto;
   text-align: center;
@@ -54,7 +51,7 @@ background: #f6f6f6;
 .nav{
   padding:5px;
   background: #363636;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -97,6 +94,7 @@ background: #f6f6f6;
   color: white;
   font-size: 16px;
   border: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*dropdown content (hidden by default)*/
@@ -106,7 +104,7 @@ background: #f6f6f6;
   background-color: #f1f1f1;
   min-width: 125px;
   overflow-y: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0.5);
+  box-shadow: 0px 8px 16px 0px rgba(0,0, 0, 0.5);
   z-index: 1;
 }
 
@@ -192,13 +190,14 @@ tbody tr:hover td{
 }
 
 .sidebar{
-  float: left;
+  float:left;
   width: 35%;
-  overflow-y: scroll;
+  height: 52%;
+
 }
 
 .sidebar_content{
-  Border-bottom: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
 }
 
 .footer{
@@ -233,9 +232,9 @@ clear: both;
 }
 
 .content{
-  margin: 0 auto;
+  margin: 0px auto;
   height: 1300px;
-  width: 70%;
+  width: 80%;
 }
 
 .list_item{
@@ -272,17 +271,18 @@ clear: both;
   margin-bottom: 10px;
   margin: 0 auto;
   width: 100%;
+  float: left;
 }
 
 .content_news{
-  height:350px;
+  height:32%;
   width:65%;
   border: 1px solid red;
   float: right;
 }
 
 .content_reviews{
-  height:240px;
+  height:18%;
   width:65%;
   border: 1px solid red;
   float: right;
@@ -291,6 +291,7 @@ clear: both;
 
 .content_reviews_title{
   padding: 10px;
+  font-size: 18px;
   text-align: center;
   border-top: 2px solid #c2c2c2;
   border-bottom: 2px solid #c2c2c2;
@@ -309,18 +310,19 @@ overflow-y: hidden;
   text-align: center;
   border-top: 2px solid #c2c2c2;
   border-bottom: 2px solid #c2c2c2;
+  font-size: 18px;
 }
 
 .content_new-releases{
   width: 100%;
-  height: 300px;
+  height: 25%;
   border: 1px solid red;
-  clear: both;
   margin-bottom: 1px;
+  float: left;
 }
 
 .list_reviews{
-  height: 200px;
+  height: 200px; //sort the height out into % //
   width: 33.33%;
   float: left;
 }
@@ -341,15 +343,20 @@ overflow-y: hidden;
 }
 
 .list_reviews_text_content{
-  font-family: Arial, Helvetica, sans-serif;
+padding: 10px;
 }
 
 .list_reviews_text_content_link{
   text-decoration: underline;
   color: #363636;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px
 }
 
 .list_reviews_text_content_link:hover{
   color: #007f00;
 }
+
+.login{
+  width: 100%;
+  height: 18%;
+  border: 1px solid red;
