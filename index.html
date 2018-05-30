@@ -9,11 +9,11 @@
   <body>
       <nav>
         <div class="nav">
-          <a class="nav nav_a" href="/index.html"><img class="home" src="../images/home-32.png"
-            height="25px" width="25px"</a>
-          <a class="nav nav_a" href="/news.html">News</a>
-          <a class="nav nav_a" href="/review.html">Reviews</a>
-          <a class="nav nav_a" href="/community-page.html">Community Page</a>
+          <a class="nav nav_a" href="./index.html"><img class="home" src="./images/home-32.png"
+            height="25px" width="25px"></a>
+          <a class="nav nav_a" href="./news.html">News</a>
+          <a class="nav nav_a" href="./review.html">Reviews</a>
+          <a class="nav nav_a" href="./community-page.html">Community Page</a>
 
 
 <!--Drop Down Button-->
@@ -21,23 +21,44 @@
        <div class="nav dropdown">
          <button class="dropdown_lyrics">Lyrics</button>
          <div class="dropdown-content">
-         <a href="">Deathcore</a>
-         <a href="">Metalcore</a>
-         <a href="">Prog-Metal</a>
-         <a href="">Tech-Metal</a>
+           <ul>
+             <li><a href="">Deathcore</a></li>
+             <li><a href="">Metalcore</a></li>
+             <li><a href="">Prog-Metal</a></li>
+             <li><a href="">Tech-Metal</a><li>
+            </ul>
          </div>
        </div>
      </div>
     </nav>
 
     <div class="nav_under">
-      <button class="icon_search"><img "icon_search" src="../images/search.png" alt="search icon" height="20px" width="20px"/></button>
+      <button class="icon_search"><img "icon_search" src="./images/search.png" alt="search icon" height="20px" width="20px"/></button>
       <input class="search" type="text" placeholder="search.."/>
-      <a href="https://www.facebook.com" target="_blank"><img class="icon" src="../images/facebook.png" alt="facebook icon"></a>
-      <a href="https://www.twitter.com" target="_blank"><img class="icon" src="../images/twitter.png" alt="twitter icon"></a>
-      <a href="https://www.instagram.com" target="_blank"><img class="icon" src="../images/instagram.png" alt="instagram icon"></a>
-      <a href="https://www.youtube.com" target="_blank"><img class="icon" src="../images/youtube.png" alt="youtube icon"></a>
+      <a href="https://www.facebook.com" target="_blank"><img class="icon" src="./images/facebook.png" alt="facebook icon"></a>
+      <a href="https://www.twitter.com" target="_blank"><img class="icon" src="./images/twitter.png" alt="twitter icon"></a>
+      <a href="https://www.instagram.com" target="_blank"><img class="icon" src="./images/instagram.png" alt="instagram icon"></a>
+      <a href="https://www.youtube.com" target="_blank"><img class="icon" src="./images/youtube.png" alt="youtube icon"></a>
+
+      <div class="login">
+          <ul>
+            <li class="login_placeholder"><img src="./images/login.png" alt="login icon" height="20px" width="20px"/>Login
+                <div class="Login_content">
+                  <ul>
+                    <li><lable for="username"><i>Username</i></lable>
+                      <input class="uname" type="text" placeholder="Enter Username" name="username" required></li>
+                    <li><lable for="password"><i>Password</i></lable>
+                      <input class="uname" type="password" placeholder="Password" name="password" required></li>
+                    <li><button type="submit"><i>Login</i></button></li>
+                    <li><input type="checkbox" checked="checked" name="remember"><i>Remember me</i></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+       </div>
+
     </div>
+
 
     <h1 class="title"><strong>METAL MASHUP<strong></h1>
 
@@ -47,34 +68,27 @@
     Here you will find a plethora of metal news, reviews and lyrics.</p>
 
 <div class="content">
-  <img class="photo" src="../images/crowd.jpg" alt="pictire of a metal crowd"/>
+  <img class="photo" src="./images/crowd.jpg" alt="pictire of a metal crowd"/>
 
-
-  <div class="sidebar">
-
-    <div class="login">
-    </div>
-
+<div class="sidebar">
       <h1 class="sidebar_title">Personal Picks</h1>
       <ol>
-        <li class="sidebar_content"><img src="../images/Aqua-Vitae.png" height="75" width="75" alt="Aqua Vitae"/>
+        <li class="sidebar_content"><img src="./images/Aqua-Vitae.png" height="75" width="75" alt="Aqua Vitae"/>
           <em>Aqua Vitae</em> by <strong>The Voynich Code</strong></li>
         <!--<li class="sidebar_content"><img src="./images/big-skies.jpg" height="75" width="75" alt="Big Skies"/>
           <em>Big Skies</em> by <strong>For Giants</strong></li>-->
-        <li class="sidebar_content"><img src="../images/the-way.jpg" height="75" width="75" alt="The Way Forward"/>
+        <li class="sidebar_content"><img src="./images/the-way.jpg" height="75" width="75" alt="The Way Forward"/>
           <em>The Way Forward</em> by <strong>Intervals</strong></li>
-        <li class="sidebar_content"><img src="../images/citidels.jpg" height="75" width="75" alt="Citadels"/>
+        <li class="sidebar_content"><img src="./images/citidels.jpg" height="75" width="75" alt="Citadels"/>
           <em>Citidels</em> by <strong>Mandroid Echostar</strong></li>
-        <li class="sidebar_content"><img src="../images/clairvoyant.jpg" height="75" width="75" alt="Clairvoyant"/>
+        <li class="sidebar_content"><img src="./images/clairvoyant.jpg" height="75" width="75" alt="Clairvoyant"/>
           <em>Clairvoyant</em> by <strong> The Contortionist</strong></li>
-        <li class="sidebar_content"><img src="../images/handmade.jpg" height="75" width="75" alt="Handmade Cities"/>
+        <li class="sidebar_content"><img src="./images/handmade.jpg" height="75" width="75" alt="Handmade Cities"/>
           <em>Handmade Cities</em> by <strong>Plini</strong></li>
-          <li class="sidebar_content"><img src="../images/underthered.jpg" height="75" width="75" alt="Under The Red Cloud"/>
+          <li class="sidebar_content"><img src="./images/underthered.jpg" height="75" width="75" alt="Under The Red Cloud"/>
             <em>Under the Red Cloud</em> by <strong>Amorphis</strong></li>
       </ol>
   </div>
-
-
 
   <div class="content_news">
   <p class="content_news_title">Metal News</p>
@@ -89,23 +103,29 @@
     <p class="content_reviews_title">Latest Reviews</p>
 
     <div class="list_reviews">
-      <img class="list_reviews_image" src="../images/amidst.jpg" alt="Amidst image"/>
+      <img class="list_reviews_image" src="./images/amidst.jpg" alt="Amidst image"/>
       <a class="list_reviews_text_content_link" href="">Review:-</a>
       <p class="list_reviews_text_content">Space Zombie EP by
           Amidst The Grave's Demons</p>
     </div>
 
     <div class="list_reviews">
-      <img class="list_reviews_image" src="../images/atthegates.jpg" alt="AtheGates image"/>
+      <img class="list_reviews_image" src="./images/atthegates.jpg" alt="AtheGates image"/>
       <a class="list_reviews_text_content_link" href="">Review:-</a>
       <p class="list_reviews_text_content">Drink From The Night Itself by At The Gates</p>
     </div>
 
     <div class="list_reviews">
-      <img class="list_reviews_image" src="../images/erase-me.jpg" alt="Underoath image"/>
+      <img class="list_reviews_image" src="./images/erase-me.jpg" alt="Underoath image"/>
       <a class="list_reviews_text_content_link">Review:-</a>
       <p class="list_reviews_text_content">Erase Me by Underoath</p>
     </div>
+  </div>
+
+  <div class="game">
+    <p class="game_title">Video Game Music</p>
+    <img class="game_icon"src="./images/destiny.png" alt="Destiny-icon" height="120px" width="120px"/>
+    <p class="game_p">Click <a class="game_link" href=#>here</a> to find our suggestions of what to listen to whilst playing Destiny 2</p>
   </div>
 
 <div class="content_new-releases">
